@@ -8,21 +8,19 @@
 	 *
 	 * Return: the length of the string
 	 */
-	int _strlen(char *s)
+	unsigned int _strlen(char *s)
 	{
-		int i;
+		unsigned int len = 0;
 
 
-		i = 0;
 
-
-		while (s[i] != '\0')
+		while (s[len] != '\0')
 		{
-			i++;
+			len++;
 		}
 
 
-		return (i);
+		return len;
 	}
 
 
