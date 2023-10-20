@@ -11,8 +11,6 @@ typedef struct list_s
     struct list_s *next; /* Pointer to the next node */
 } list_t;
 
-/* Function prototype for printing and counting list elements */
-size_t print_list(const list_t *h);
 
 /* Function  that prints all the elements of a list_t list */
 size_t print_list(const list_t *h);
