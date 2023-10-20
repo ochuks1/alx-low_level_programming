@@ -14,6 +14,9 @@ typedef struct list_s
 /* Function prototype for printing and counting list elements */
 size_t print_list(const list_t *h);
 
+/* Function  that prints all the elements of a list_t list */
+size_t print_list(const list_t *h);
+
 /* Function prototype to return the number of elements in the list */
 size_t list_len(const list_t *h);
 
