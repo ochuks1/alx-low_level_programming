@@ -1,4 +1,4 @@
 #!/bin/bash
-gcc -Wall -pedantic -Werror -Wextra -shared -fPIC *.c -o libdynamic.so
+gcc -Wall -pedantic -Werror -Wextra -shared -fPIC *.c -o liball.so
 gcc *.c -c -fpic
-gcc -shared -o libdynamic.so *.o
+gcc -shared -o liball.so *.o
